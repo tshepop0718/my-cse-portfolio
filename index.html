@@ -281,16 +281,94 @@ footer {
     animation-duration: 0.01ms !important;
   }
 }
+/* MODERN HERO SECTION */
+
+.hero {
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+
+.hero-label {
+  color: var(--primary);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 22px;
+}
+
+.hero h1 span {
+  color: var(--primary);
+}
+
+.hero-description {
+  max-width: 650px;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.hero-buttons .button {
+  margin: 0;
+}
+
+.button-secondary {
+  color: var(--text);
+  background: transparent;
+  border-color: var(--border);
+}
+
+.button-secondary:hover {
+  color: var(--primary);
+  background: var(--surface);
+}
+
+.hero-note {
+  margin-top: 28px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding-top: 75px;
+    padding-bottom: 65px;
+  }
+}
 </style>
 </head>
 
 <body>
 
-	<header>
-		<h1>Tshepo Makhubela</h1>
-		<p>Computer Systems Engineering Student</p>
-		<p>Aspiring Software Developer | Technology Enthusiast</p>
-	</header>
+	<header class="hero">
+  <p class="hero-label">COMPUTER SYSTEMS ENGINEERING</p>
+
+  <h1>
+    Hi, I'm Tshepo.<br />
+    <span>Aspiring CSE Professional.</span>
+  </h1>
+
+  <p class="hero-description">
+    I'm a first-year Computer Systems Engineering student
+    interested in programming, computer systems, and networking.
+    I'm building my technical skills and seeking internship
+    opportunities to gain practical experience.
+  </p>
+
+  <div class="hero-buttons">
+    <a class="button" href="#projects">View My Projects</a>
+
+    <a class="button button-secondary" href="#contact">
+      Contact Me
+    </a>
+  </div>
+
+  <p class="hero-note">
+    C++ · Networking · Web Development
+  </p>
+</header>
 
 	
 <nav>
@@ -306,21 +384,26 @@ footer {
 
 		<!-- ABOUT ME -->
 <section id="about">
+  <p class="hero-label">GET TO KNOW ME</p>
   <h2>About Me</h2>
 
   <p>
-    I am a first-year Computer Systems Engineering student
-    interested in programming, computer systems, and networking.
-    I am developing my technical skills through coursework and
-    hands-on practice, and I am eager to gain practical experience
-    through internship opportunities.
+    I'm a first-year Computer Systems Engineering student
+    with an interest in programming, computer systems, and
+    networking. I'm developing my technical knowledge through
+    my studies and practical projects.
   </p>
 
   <p>
-    My experience as a Teacher's Assistant helped me develop
-    communication, teamwork, organisation, and problem-solving
-    skills. I am motivated to keep learning, build useful projects,
-    and grow as a future technology professional.
+    My experience as a Teacher's Assistant at a high school
+    helped me develop communication, teamwork, organisation,
+    and problem-solving skills.
+  </p>
+
+  <p>
+    I'm looking for internship opportunities where I can
+    apply what I'm learning, gain practical experience,
+    and grow as a future engineering professional.
   </p>
 </section>
 
@@ -369,11 +452,7 @@ footer {
 			<h2>Experience</h2>
 			<h3>Teaching Assistant</h3>
 			<p>Secondary school | Six(6)-month contract</p>
-			<P> Assisted teachers with daily classroom activities and learning materials. Supported learners in understanding instructions and completing assigned tasks. Helped maintain an organized, positive, and productive learning environment. Communicated with learners and teachers to support effective classroom activities. Developed strong teamwork, communication, organization, time-management, and problem-solving skills. Demonstrated responsibility, patience, adaptability, and professionalism in an educational environment. </P>
-
-			<h3>Intern - Administrative and Tender Support</h3>
-			<p>Travel Agency | Five(5)-month contract</p>
-			<p> Assisted in compiling and preparing tender documents and letters. Supported the submission of tender applications. Helped organise documentation and maintain accurate records. Developed communication, organisational, and administrative skills. Gained practical experience working in a professional environment.</p>
+			<P> Assisted teachers with daily classroom activities and learning materials. Supported learners in understanding instructions and completing assigned tasks. Helped maintain an organized, positive, and productive learning environment. Communicated with learners and teachers to support effective classroom activities. Developed strong teamwork, communication, organization, time-management, and problem-solving skills. Demonstrated responsibility, patience, adaptability, and professionalism in an educational environment.</p>
 		</section>
 
 		<!-- PROJECTS -->
