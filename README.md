@@ -49,7 +49,7 @@ I am seeking internship opportunities where I can gain practical experience, app
 
 Connect With Me
 
-- LinkedIn: https://www.linkedin.com/in/tshepo-makhubela-446710446/
+- LinkedIn: https://www.linkedin.com/in/tshepo-makhubela/
 - Portfolio: https://tshepop0718.github.io/my-cse-portfolio/
 
 ---
